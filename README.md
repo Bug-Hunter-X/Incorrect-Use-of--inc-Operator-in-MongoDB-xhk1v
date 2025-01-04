@@ -1,0 +1,2 @@
+# Incorrect Use of $inc Operator in MongoDB
+This repository demonstrates a common error when using the $inc operator in MongoDB to increment a field value. The incorrect example shows an unintended large increment while the correct example demonstrates a single unit increment.  The incorrect example increments the age by 100 instead of 1, which can lead to unexpected data in the collection.
